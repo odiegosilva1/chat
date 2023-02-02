@@ -6,7 +6,28 @@
     -moz-osx-font-smootihing: grayscale;
 }
 
+:root {
+    font-size: 62.5%; /*1 rem  = 10px */
+}
+
 
 body {
     background-color: #1A1924;
+    font-size: 1.6rem;
+    color: aliceblue;
+}
+
+
+body * {
+    border: 1px solid forestgreen;
+}
+
+.app {
+    padding: 2.4rem 3.2rem;
+
+    height: 100vh;
+    width: 100vw;
+
+    display: grid;
+    grid-template-rows: max-content 1fr max-content;
 }
